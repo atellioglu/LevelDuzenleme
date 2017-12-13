@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-down" width="1" height="1" tilewidth="480" tileheight="800" nextobjectid="242">
+ <layer name="background" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <objectgroup name="circles">
+  <object id="1" name="start" x="210" y="650" width="60" height="60">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="71" name="end" x="210" y="127" width="60" height="60"/>
+  <object id="230" x="210" y="547" width="60" height="60">
+   <properties>
+    <property name="angle" type="float" value="6.5"/>
+    <property name="fadeTime" type="float" value="0.5"/>
+    <property name="invisibleTime" type="float" value="1"/>
+    <property name="type" type="int" value="2"/>
+    <property name="visibleTime" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="232" x="210" y="459" width="60" height="60">
+   <properties>
+    <property name="angle" type="float" value="6.5"/>
+    <property name="fadeTime" type="float" value="0.5"/>
+    <property name="invisibleTime" type="float" value="1"/>
+    <property name="type" type="int" value="2"/>
+    <property name="visibleTime" type="float" value="1.5"/>
+   </properties>
+  </object>
+  <object id="233" x="209" y="371" width="60" height="60">
+   <properties>
+    <property name="angle" type="float" value="6.5"/>
+    <property name="fadeTime" type="float" value="0.5"/>
+    <property name="invisibleTime" type="float" value="1"/>
+    <property name="type" type="int" value="2"/>
+    <property name="visibleTime" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="234" x="210" y="287" width="60" height="60">
+   <properties>
+    <property name="angle" type="float" value="6.5"/>
+    <property name="fadeTime" type="float" value="0.5"/>
+    <property name="invisibleTime" type="float" value="1"/>
+    <property name="type" type="int" value="2"/>
+    <property name="visibleTime" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="235" x="211" y="207" width="60" height="60">
+   <properties>
+    <property name="angle" type="float" value="6.5"/>
+    <property name="fadeTime" type="float" value="0.5"/>
+    <property name="invisibleTime" type="float" value="1"/>
+    <property name="type" type="int" value="2"/>
+    <property name="visibleTime" type="float" value="2.5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="stars">
+  <object id="236" x="235" y="188" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="237" x="235" y="269" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="238" x="235" y="351" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="239" x="235" y="442" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="241" x="235" y="615" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="240" x="235" y="525" width="10" height="10">
+   <properties>
+    <property name="value" type="int" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="barriers"/>
+</map>

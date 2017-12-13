@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-down" width="1" height="1" tilewidth="480" tileheight="800" nextobjectid="254">
+ <layer name="background" width="1" height="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <objectgroup name="circles">
+  <object id="1" name="start" x="335" y="640" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="71" name="end" x="174" y="18" width="120" height="120"/>
+  <object id="242" x="335" y="475" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="244" x="180" y="475" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="245" x="30" y="476" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="246" x="180" y="640" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="247" x="29" y="640" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="248" x="335" y="172" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="249" x="29" y="325" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="250" x="335" y="325" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="251" x="180" y="325" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="252" x="30" y="173" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="253" x="180" y="172" width="110" height="110">
+   <properties>
+    <property name="angle" type="float" value="6"/>
+    <property name="timeOut" type="float" value="3"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="stars"/>
+ <objectgroup name="barriers"/>
+</map>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="left-down" width="1" height="1" tilewidth="480" tileheight="800" nextobjectid="142">
+ <layer name="background" width="1" height="1" offsetx="-1" offsety="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgAAAABAAB
+  </data>
+ </layer>
+ <objectgroup name="circles">
+  <object id="1" name="start" x="160" y="403.001" width="160" height="160">
+   <properties>
+    <property name="angle" type="float" value="8"/>
+   </properties>
+  </object>
+  <object id="4" name="end" x="160" y="150" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="stars"/>
+ <objectgroup name="barriers"/>
+</map>
